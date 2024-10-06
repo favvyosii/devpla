@@ -1,40 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Developer Portfolio Platform - UI
 
-## Getting Started
+This is the UI component of the Developer Portfolio Platform, a web application created to help developers showcase their profiles and connect with recruiters easily. The platform allows developers to create profiles, display their portfolios, and control their visibility to recruiters based on location.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- [Next.js](https://nextjs.org/) - React framework for server-rendered applications
+- [React Icons](https://react-icons.github.io/react-icons/) - A library for using icons in React applications
+- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework for styling
+- [Axios](https://axios-http.com/) - A promise-based HTTP client for making API requests
+- [React Hot Toast](https://react-hot-toast.com/) - For displaying notifications
+- [React Router](https://reactrouter.com/) - For navigation and route handling
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Installation
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+To set up the project locally, follow these steps:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. **Clone the Repository**:
 
-## Learn More
+   ```bash
+   git clone https://github.com/favvyosii/devpla.git
+   cd YOUR_REPOSITORY/ui
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Install Dependencies**:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   npm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3. **Start the Development Server**:
 
-## Deploy on Vercel
+   ```bash
+   npm run dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Usage
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+To start the development server and view the application, run the following command:
+
